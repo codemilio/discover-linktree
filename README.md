@@ -1,6 +1,9 @@
+![Project Preview](https://github.com/eupendragon/discover-linktree/blob/main/assets/readme-presentation.png?raw=true)
+
 # LinkTree: Página de links
 
-Este é um projeto de Link Tree personalizado, criado por Carlos Emilio Silva Coutinho. Ele apresenta uma lista de links para várias plataformas sociais e profissionais, permitindo que os visitantes acessem facilmente todas as suas presenças online em um só lugar.
+Este é um projeto de Link Tree personalizado, criado por Carlos Emilio Silva Coutinho. Ele apresenta uma lista de links para várias plataformas sociais e profissionais, permitindo que os visitantes acessem facilmente todas as suas redes sociais e projetos através de uma única página.
+Esta é uma versão simples que teve como objetivo revisitar conceitos básicos de HTML e CSS, uma versão mais moderna, com outras funcionalidades será adicionada em breve. 
 
 ## Recursos
 
