@@ -13,8 +13,8 @@
   --high-light-color: rgba(255, 255, 255, 0.2);
 
   /* images */
-  --bg-url: url('./assets/bg-mobile.jpg');
-  --theme-button-url: url('./assets/moon.svg')
+  --bg-url: url('../assets/bg-mobile.jpg');
+  --theme-button-url: url('../assets/moon.svg')
 }
 
 .light {
@@ -26,11 +26,12 @@
   --high-light-color: rgba(0, 0, 0, 0.05);
 
   /* links */
-  --bg-url: url('./assets/bg-mobile-light.jpg');
-  --theme-button-url: url('./assets/sun.svg')
+  --bg-url: url('../assets/bg-mobile-light.jpg');
+  --theme-button-url: url('../assets/sun.svg')
 }
 
 body {
+  height: 100vh;
   background: var(--bg-url) no-repeat top center/cover;
 }
 
@@ -40,7 +41,8 @@ body * {
 }
 
 main.container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   flex-direction: column;
   margin: 56px auto 0;
 }
@@ -121,6 +123,7 @@ ul li a {
   justify-content: center;
 
   padding: 16px 24px;
+  margin: 0 24px;
   border-radius: 8px;
 
   border: 1px solid var(--stroke-color);
